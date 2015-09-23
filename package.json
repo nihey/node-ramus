@@ -1,0 +1,32 @@
+{
+  "name": "ramus",
+  "version": "0.0.0",
+  "description": "Create command line processes from a config file",
+  "main": "./lib/index.js",
+  "bin": {
+    "ramus": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihey/node-ramus.git"
+  },
+  "keywords": [
+    "process",
+    "cli",
+    "command",
+    "subprocess",
+    "multiple"
+  ],
+  "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/nihey/node-ramus/issues"
+  },
+  "homepage": "https://github.com/nihey/node-ramus",
+  "dependencies": {
+    "meow": "^3.3.0"
+  }
+}
