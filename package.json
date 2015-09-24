@@ -1,6 +1,6 @@
 {
   "name": "ramus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create command line processes from a config file",
   "main": "./lib/index.js",
   "bin": {

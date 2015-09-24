@@ -15,4 +15,7 @@ config.forEach(function(settings) {
     settings.stdout && console.log(stdout);
     settings.stderr && console.log(stderr);
   });
+
+  settings.stdout && ramus.process.stdout.on('data', console.log);
+  settings.stderr && ramus.process.stderr.on('data', console.log);
 });
